@@ -4,7 +4,7 @@
 
 クローンしたいディレクトリに移動し以下を実行。
 ```
-$ git clone 
+$ git clone https://github.com/mizu-ryo/fastapi_react_app.git
 ```
 
 # 環境構築
@@ -89,6 +89,7 @@ $ docker compose up
 たとえば、画面遷移を行う際に必要となる、`react-router-dom`などがある。
 
 その時は以下の手順でモジュールをインストールする。
+
 ※`-g`を付けること。
 ```
 $ docker compose run --rm front sh -c "npm install -g react-router-dom"
